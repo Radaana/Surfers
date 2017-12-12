@@ -6,17 +6,23 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
 
   <title>Surfers Co</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+
   <link rel="stylesheet" href="css/style.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
 </head>
-<body>
+<body> 
   <div class="maincontent">
     <section class="section greeting">
+      <div class="greeting__bg">
+          
+      </div>
       <div class="container">
         <header class="header">
           <div class="header__left">
-            <div class="logo"><img src="img/logo.svg" alt="Surfers Co" class="logo__img"></div>
+            <div class="logo"><a href="#" class="logo__link"><img src="img/logo.svg" alt="Surfers Co" class="logo__img"></a></div>
           </div>
           <div class="header__middle">
             <nav class="menu">
@@ -50,15 +56,69 @@
             </ul>
           </div>
         </header>
-        <div class="greeting__bg">
-          
-        </div>
+        
         <div class="slogan">
-          <h2 class="slogan-header">Ride every wave as if it's your last</h2>
-          <p class="slogan-text">We love the motion of the ocean</p>
+          <h2 class="slogan--header">Ride every wave as if it's your last</h2>
+          <div class="slogan--text"><p >We love the motion of the ocean</p></div>
         </div>
         <div class="boards">
-          
+          <div class="boards__left">
+            <div class="boards__image">
+              <img src="img/board1-big.png" alt="Покоритель ветра" class="boargs__bigpic">
+            </div>
+            <ul class="boards__gallery">
+              <li class="boards__item">
+                  <div class="boards__thumbnail"><img class ="boargs__smallpic" src="img/board1-small.png" alt="Покоритель ветра"></div>
+                </li>
+              <li class="boards__item">
+                  <div class="boards__thumbnail"><img class ="boargs__smallpic" src="img/board2-small.png" alt="Покоритель ветра"></div>
+                </li>
+              <li class="boards__item">
+                  <div class="boards__thumbnail"><img class ="boargs__smallpic" src="img/board3-small.png" alt="Покоритель ветра"></div>
+                </li>
+              <li class="boards__item">
+                  <div class="boards__thumbnail"><img class ="boargs__smallpic" src="img/board4-small.png" alt="Покоритель ветра"></div>
+                </li>
+            </ul>
+          </div>
+          <div class="boards__right">
+            <h4  class="boards__name">JR Surfboards The Donny Stoker Yellow/Green Rail Fade</h4>
+            <div class="boards__rating">
+              <div class="boards__stars">
+                <svg class="boards__star boards__star--yellow"><use xlink:href="img/sprite.svg#star"/> </svg>
+                <svg class="boards__star boards__star--yellow"><use xlink:href="img/sprite.svg#star"/> </svg>
+                <svg class="boards__star boards__star--yellow"><use xlink:href="img/sprite.svg#star"/> </svg>
+                <svg class="boards__star boards__star--yellow"><use xlink:href="img/sprite.svg#star"/> </svg>
+                <svg class="boards__star "><use xlink:href="img/sprite.svg#star"/> </svg>
+              </div>
+              <div class="boards__voices">
+                <p>(52)</p>
+              </div>
+
+            </div>
+            <div class="boards__desc">
+              <ul class="boards__topics">
+                <li class="boards__topic"><a href="#" class="boards__topic-link">Description</a></li>
+                <li class="boards__topic"><a href="#" class="boards__topic-link">Features</a></li>
+                <li class="boards__topic"><a href="#" class="boards__topic-link">Dimentions</a></li>
+              </ul>
+              <div class="boards__text"><p>Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.</p></div>
+            </div>
+            <div class="boards__bottom">
+              <div class="boards__price">$499.99</div>
+              <a href="#" class="button button--buy">Buy now</a>
+            </div>
+            <div class="boards__link">
+              <a href="#" class="link">View all boards</a>
+            </div>
+          </div>
+          <div class="boards__arrows">
+            <div class="boards__arrows--left"></div>
+            <div class="boards__arrows--right"></div>
+          </div>
+          <div class="boards__pages">
+            
+          </div>
         </div>
       </div>
     </section>

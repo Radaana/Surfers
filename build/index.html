@@ -10,16 +10,28 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet"> 
 
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body> 
+  <!-- Facebook plugin -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.11';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!--Facebook plugin -->
+
   <div class="maincontent">
     <section class="section greeting">
       <div class="greeting__bg">
           
       </div>
-      <div class="container">
+      <div class="container container--flex">
         <header class="header">
           <div class="header__left">
             <div class="logo"><a href="#" class="logo__link"><img src="img/logo.svg" alt="Surfers Co" class="logo__img"></a></div>
@@ -126,9 +138,234 @@
         </div>
       </div>
     </section>
-    <section class="section about-us"></section>
-    <section class="section our-team"></section>
-    <section class="section socials"></section>
+    <section class="section about-us">
+      <div class="about-us__bg">      </div>
+      <!-- <div class="container"> -->
+        <div class="about-us__title"><h1 class="section-title ">About us</h1></div>
+        <div class="promo">
+          <div class="promo__container">            
+            <h3 class="montserrat-title promo__title">We are Surfers co.</h3>
+            <div class="cross-icon">
+              <svg class="cross-icon__pic"><use xlink:href="img/sprite.svg#cross"/> </svg>
+            </div>
+            <div class="promo__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sapiente adipisci accusamus voluptatibus, eum, vitae facere a. Voluptatum beatae quisquam illo, molestias enim alias perferendis optio velit natus nobis eveniet amet numquam sint? Ab nisi minus quia at magni porro, </p></div>
+            <div class="promo__link">
+              <a href="#" class="link">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/MiCDWg1t_yc?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+      <!-- </div> -->
+    </section>
+    <section class="section our-team">
+      <!-- <div class="container"> -->
+        <div class="our-team__title"><h1 class="section-title ">Our team</h1></div>
+        <div class="team">
+          <ul class="team__list">
+            <li class="team__item">
+              <div class="team__image">
+                <img src="img/teampic1.png" alt="Taj Burrow" class="team__pic">
+              </div>
+              <div class="team__name">Taj Burrow</div>
+              <div class="team__nickname">@tajamos</div>
+              <div class="team__wave">
+                <svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg><svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg>
+              </div>
+              <div class="team__location">
+                <div class="team__pointer">
+                  <svg class="pointer"><use xlink:href="img/sprite.svg#pointer"/> </svg>
+                </div> 
+                <span class="team__place">
+                  Yallingup, Australia
+                </span>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__image">
+                <img src="img/teampic2.png" alt="Malia Manuel" class="team__pic">
+              </div>
+              <div class="team__name">Malia Manuel</div>
+              <div class="team__nickname">@maliamanuel</div>
+              <div class="team__wave">
+                <svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg><svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg>
+              </div>
+              <div class="team__location">
+                <div class="team__pointer">
+                  <svg class="pointer"><use xlink:href="img/sprite.svg#pointer"/> </svg>
+                </div> 
+                <span class="team__place">
+                  Wailua, Hi
+                </span>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__image">
+                <img src="img/teampic3.png" alt="Ian Walsh" class="team__pic">
+              </div>
+              <div class="team__name">Ian Walsh</div>
+              <div class="team__nickname">@ian.walsh</div>
+              <div class="team__wave">
+                <svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg><svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg>
+              </div>
+              <div class="team__location">
+                <div class="team__pointer">
+                  <svg class="pointer"><use xlink:href="img/sprite.svg#pointer"/> </svg>
+                </div> 
+                <span class="team__place">
+                  Maui, Hi
+                </span>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__image">
+                <img src="img/teampic4.png" alt="Macy Callaghan" class="team__pic">
+              </div>
+              <div class="team__name">Macy Callaghan</div>
+              <div class="team__nickname">@macyjanecallaghan</div>
+              <div class="team__wave">
+                <svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg><svg class="wave-pic"><use xlink:href="img/sprite.svg#zigzag"/> </svg>
+              </div>
+              <div class="team__location">
+                <div class="team__pointer">
+                  <svg class="pointer"><use xlink:href="img/sprite.svg#pointer"/> </svg>
+                </div> 
+                <span class="team__place">
+                  San Clemente, CA
+                </span>
+              </div>
+            </li>
+          </ul>
+          <div class="team__arrows">
+            <div class="team__arrow team__arrow--left">
+              <svg class="team__arrow-pic"><use xlink:href="img/sprite.svg#arrow"/> </svg>
+            </div>
+            <div class="team__arrow">
+              <svg class="team__arrow-pic"><use xlink:href="img/sprite.svg#arrow"/> </svg>
+            </div>
+          </div>
+        </div>
+        <div class="news">
+          <h3 class="montserrat-title news__title">Latest Updates</h3>
+          <div class="cross-icon news__icon">
+              <svg class="cross-icon__pic"><use xlink:href="img/sprite.svg#cross"/> </svg>
+          </div>
+          <ul class="news__list">
+            <li class="news__item">
+              <div class="news__image"><img src="img/news-pic1.jpg" alt="News 1" class="news__pic"></div>
+              <div class="news__text"><p>Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships</p></div>
+            </li>
+            <li class="news__item">
+              <div class="news__image"><img src="img/news-pic2.jpg" alt="News 1" class="news__pic"></div>
+              <div class="news__text"><p>A large group of surfers invaded the coast of La Jolla Shores, in California, with a single goal in mind</p></div>
+            </li>
+            <li class="news__item">
+              <div class="news__image"><img src="img/news-pic3.jpg" alt="News 1" class="news__pic"></div>
+              <div class="news__text"><p>Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments</p></div>
+            </li>
+          </ul>
+          <a href="#" class="button">view all posts</a>
+        </div>
+      <!-- </div> -->
+    </section>
+    <section class="section follow-us">
+
+      <div class="container follow-us__container">
+        <div class="instagram">
+          <h2 class="section-title instagram__title">
+            Instagram
+          </h2>
+          <ul class="instagram__gallery">
+            <li class="instagram__image">
+              <img src="img/insta-pic1.png" alt="Surfer Co">
+            </li>
+            <li class="instagram__image">
+              <img src="img/insta-pic2.png" alt="Surfer Co">
+            </li>
+            <li class="instagram__image">
+              <img src="img/insta-pic3.png" alt="Surfer Co">
+            </li>
+            <li class="instagram__image">
+              <img src="img/insta-pic4.png" alt="Surfer Co">
+            </li>
+          </ul>
+          <div class="instapage">
+            <svg class="instapage__icon" >
+                  <use xlink:href="img/sprite.svg#inst"/> 
+            </svg>
+            <h6 class="instapage__text">Follow us</h6>
+            <a href="#" class="instapage__link">@surfersco</a>
+          </div>
+        </div>
+        <div class="facebook">
+          <div class="fb-page " data-href="https://www.facebook.com/surfer/" data-tabs="timeline" data-width="540" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/surfer/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/surfer/">Surfer</a></blockquote></div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__left">
+            <ul class="copyright">
+              <li class="copyright__text">
+                © 2017 Surfers Co.
+              </li>
+              <li class="copyright__text">
+                Design by @lucaalco
+              </li>
+            </ul>
+            
+          </div>
+          <div class="footer__right">
+            <ul class="navigation">
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                About
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Technology
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Boards
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Team
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Accessories
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Dealers
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Blog
+              </a></li>
+              <li class="navigation__item"><svg class="wave-pic navigation__icon"><use xlink:href="img/sprite.svg#zigzag"/> </svg><a href="#" class="navigation__link">
+                Contact us
+              </a></li>
+            </ul>
+            <form action="#" method="post" class="subscribe">
+              
+                <label for="email" class="subscribe__text">Subscribe to our newsletter</label><br>
+                <div class="subscribe__container">
+                  <div class="subscribe__letter">
+                    <svg class="subscribe__icon">
+                      <use xlink:href="img/sprite.svg#mail"/> 
+                    </svg>
+                  </div>
+                  <input type="text" name="email" id="email" class="subscribe__field" required placeholder="Your e-mail">
+                  <div class="submit">
+                    <input type="submit" class="submit__button" value="">
+                    <div class="submit__arrow"><svg class="submit__icon">
+                      <use xlink:href="img/sprite.svg#arrow"/> 
+                    </svg></div>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </footer>
+    </section>
   </div>
 
 

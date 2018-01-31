@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  width: rem(300px);
+  flex-wrap: wrap;
+  margin-bottom: rem(20px);
+}
+
+.navigation__item {
+  display: inline-block;
+  width: rem(150px);
+  height: rem(30px);
+}
+
+.navigation__icon {
+  fill: $yellow;
+  vertical-align: middle;
+}
+
+.navigation__link {
+  display: inline-block;
+  padding: rem(5px) rem(10px);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: rem(16px);
+  color: #fff;
+}

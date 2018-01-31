@@ -1,0 +1,17 @@
+.copyright__text {
+  display: inline-block;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: $gray;
+
+  &:first-child::after {
+    content: '';
+    display: inline-block;
+    width: rem(5px);
+    height: rem(5px);
+    background-color: $gray;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}

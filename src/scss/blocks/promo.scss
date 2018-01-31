@@ -1,0 +1,29 @@
+.promo {
+  width: 55%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background-color: #fff;
+}
+
+.promo__container {
+  padding: rem(95px)  rem(80px) rem(75px) rem(250px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__title {
+  margin-bottom: rem(10px);
+}
+
+.promo__text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: rem(22px);
+  line-height: rem(38px);
+}
+
+.promo__link {
+  width: 100%;
+}

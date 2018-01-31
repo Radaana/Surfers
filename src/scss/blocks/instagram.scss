@@ -1,0 +1,26 @@
+.instagram {
+  width: rem(620px);
+  height: rem(800px);
+  background-color: #fff;
+
+  position: absolute;
+  z-index: 5;
+  left: 0%;
+  top: 0%;
+}
+
+.instagram__title {
+  font-size: rem(100px);
+  margin-bottom: rem(-25px);
+}
+
+.instagram__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: rem(620px);
+}
+
+.instagram__image {
+  width: rem(310px);
+  height: rem(310px);
+}

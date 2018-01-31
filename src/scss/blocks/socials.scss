@@ -1,0 +1,46 @@
+.socials__item {
+  // display: inline-block;
+  display: table-cell;
+  width: rem(36px);
+  height: rem(36px);
+  background-color: #000;
+  border-radius: 50%;
+  flex-shrink: 0;
+
+  vertical-align: middle;
+  text-align: center;
+
+  &:hover {
+    background-color: #fff;
+    
+    .socials__icon {
+      fill: #000000;
+    }
+
+  }
+}
+
+.socials__icon {
+  fill: #ffffff;
+  display: inline-block;
+  // display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+
+  &-fb {
+    width: 20px;
+    height: 30px;
+  }
+
+  &-inst {
+    width: 18px;
+    height: 18px;
+  }
+
+  &-mail {
+    width: 22px;
+    height: 18px;
+  }
+
+
+}

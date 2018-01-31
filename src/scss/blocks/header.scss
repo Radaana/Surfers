@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: rem(81px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    &__left {
+        margin-left: rem(75px);
+        // margin-top: rem(13px);
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+
+        // @include tablets {
+        //     margin-left: rem(10px);
+        //     margin-top: rem(15px);
+        // }
+
+        // @include phones {
+        //     margin-left: rem(15px);
+        //     margin-top: rem(25px);
+        // }
+
+    }
+    &__middle {
+        margin-top: rem(15px);
+        margin-right: rem(15px);
+        display: flex;
+        align-items: center;
+
+        // @include tablets {
+        //     display: none;
+        // }
+    }
+    &__right {
+        margin-right: rem(79px);
+        margin-top: rem(13px);
+
+        display: flex;
+        align-items: center;
+
+
+        // @include tablets {
+        //     margin-right: rem(25px);
+        //     margin-top: rem(20px);
+        // }
+    }
+}

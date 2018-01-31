@@ -1,0 +1,22 @@
+.slogan  {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5%;
+  
+  &--header {
+  font-size: rem(50px);
+  margin: 0;
+  padding: 0;
+  }
+
+  &--text {
+    color: #fff;
+    font-size: rem(24px);
+    
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

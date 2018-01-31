@@ -1,6 +1,6 @@
 node_modules/
 bower_components/
-src/
+
 .Saved/
 _arc/
 .vscode/

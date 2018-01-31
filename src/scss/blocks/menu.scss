@@ -1,0 +1,21 @@
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.menu__link {
+        color: #000000;
+        font-size: rem(14px);
+        font-family: Montserrat;
+        text-transform: uppercase;
+        display: inline-block;
+        vertical-align: middle;
+        transition: .5s;
+        padding: 10px 7px;
+
+    &:hover {
+        background-color: $blue;
+        color: #ffffff;
+    }
+}

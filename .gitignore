@@ -10,9 +10,7 @@ _arc/
 *.rar
 *.zip
 *.psd
-*.editorconfig
-*.json
-*.js
+
 .idea
 .publish
 ex_files
